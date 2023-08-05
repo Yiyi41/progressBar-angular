@@ -1,0 +1,13 @@
+<h4>{{ title }}</h4>
+<div class="progressContainer">
+  <span>{{ progressBarService.progress + "%" }}</span>
+  <div class="progress">
+    <div
+      class="inProgress"
+      [style.width]="progressBarService.progress + '%'"
+      [style.background-color]="progressBarService.backgroundColor"
+    ></div>
+  </div>
+</div>
+
+<!-- [style]="'width: ' + progressBarService.progress + '%'" -->

@@ -1,0 +1,32 @@
+.container {
+  color: whitesmoke;
+  max-width: 60%;
+  height: 60%;
+  margin: 200px auto;
+
+  h1 {
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 100px;
+  }
+
+  button {
+    background-color: #373737;
+    color: whitesmoke;
+    height: 40px;
+    width: fit-content;
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px;
+  }
+
+  .btnContainer {
+    max-width: 60%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
